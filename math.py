@@ -17,3 +17,14 @@ amount_9 = amount_8+a+((amount_8+a)*(r/12))
 amount_10 = amount_9+a+((amount_9+a)*(r/12))
 amount_11 = amount_10+a+((amount_10+a)*(r/12))
 amount_12 = amount_11+a+((amount_11+a)*(r/12))
+
+# 미래가치를 계산해보자!
+
+import scipy as sp
+a =1000
+n = 1
+r = 0.05
+
+s_simple = sp.fv(r, n, 0, a)
+print(s_simpe)
+
